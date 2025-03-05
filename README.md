@@ -12,8 +12,8 @@ The provided form will display the values of the variables stored in the .env fi
 
 ## Built With
 
-* [Microsoft Visual Studio Community 2022 (64-bit)](https://visualstudio.microsoft.com/) - The IDE used
-* [Microsoft .NET 8](https://dotnet.microsoft.com/download/dotnet/8.0) - The framework used
+* [Microsoft Visual Studio Community 2022 (64-bit)](https://visualstudio.microsoft.com/) 
+* [Microsoft .NET 8](https://dotnet.microsoft.com/download/dotnet/8.0) 
 
 ## License
 
