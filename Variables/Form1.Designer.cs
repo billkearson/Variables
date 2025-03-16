@@ -46,6 +46,13 @@
             label12 = new Label();
             label10 = new Label();
             groupBox2 = new GroupBox();
+            button5 = new Button();
+            textBox5 = new TextBox();
+            label9 = new Label();
+            label7 = new Label();
+            label8 = new Label();
+            textBox4 = new TextBox();
+            button3 = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -214,22 +221,90 @@
             // 
             // groupBox2
             // 
+            groupBox2.Controls.Add(button5);
+            groupBox2.Controls.Add(textBox5);
+            groupBox2.Controls.Add(label9);
+            groupBox2.Controls.Add(label7);
+            groupBox2.Controls.Add(label8);
+            groupBox2.Controls.Add(textBox4);
+            groupBox2.Controls.Add(button3);
             groupBox2.Controls.Add(label10);
             groupBox2.Controls.Add(label12);
             groupBox2.Controls.Add(textBox6);
             groupBox2.Controls.Add(button4);
             groupBox2.Location = new Point(8, 222);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(498, 206);
+            groupBox2.Size = new Size(498, 276);
             groupBox2.TabIndex = 3;
             groupBox2.TabStop = false;
             groupBox2.Text = ".env";
+            // 
+            // button5
+            // 
+            button5.Location = new Point(196, 148);
+            button5.Name = "button5";
+            button5.Size = new Size(32, 23);
+            button5.TabIndex = 15;
+            button5.Text = "...";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
+            // textBox5
+            // 
+            textBox5.Location = new Point(23, 148);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(167, 23);
+            textBox5.TabIndex = 14;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(23, 124);
+            label9.Name = "label9";
+            label9.Size = new Size(71, 15);
+            label9.TabIndex = 13;
+            label9.Text = "File location";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(26, 187);
+            label7.Name = "label7";
+            label7.Size = new Size(39, 15);
+            label7.TabIndex = 12;
+            label7.Text = "Name";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(129, 205);
+            label8.Name = "label8";
+            label8.Size = new Size(35, 15);
+            label8.TabIndex = 11;
+            label8.Text = "Value";
+            // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(23, 202);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(100, 23);
+            textBox4.TabIndex = 10;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(34, 231);
+            button3.Name = "button3";
+            button3.Size = new Size(75, 23);
+            button3.TabIndex = 9;
+            button3.Text = "Get";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(521, 436);
+            ClientSize = new Size(521, 513);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "Form1";
@@ -261,5 +336,12 @@
         private Label label12;
         private Label label10;
         private GroupBox groupBox2;
+        private TextBox textBox5;
+        private Label label9;
+        private Label label7;
+        private Label label8;
+        private TextBox textBox4;
+        private Button button3;
+        private Button button5;
     }
 }
